@@ -81,7 +81,18 @@ a {
 .nav-btn label span:not(:last-child) {
     margin-bottom: 7px;
 }
+/* remove this when you use this code for your webpage*/
+.instruction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 72px);
+}
 @media (max-width: 992px) {
+    /* remove this when you use this code for your webpage*/
+    .instruction {
+        display: none;
+    }
     .nav-menu {
         display: none !important;
     }
